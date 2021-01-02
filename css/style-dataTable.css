@@ -1,0 +1,63 @@
+
+/*ESTILOS PARA PERSONALIZAR EL DATA TABLE*/
+#tablaProd{
+	margin-bottom: 20px;
+}
+
+/*numero de registros por pagina*/ /*buscador*/
+#tablaProd_length,#tablaProd_filter {
+	  margin-bottom: 20px;
+    width: 50%;
+}
+
+#tablaProd_filter label{
+    width: 100%;
+}
+
+#tablaProd_length label, #tablaProd_filter label{ 
+	font-weight: 500;
+	font-size: 15px;
+}
+
+#tablaProd_filter label input{
+    width: 50%;
+}
+
+#tablaProd_length label select, #tablaProd_filter label input{ 
+	font-weight: 400;
+  	color: #495057;
+  	background-color: #fff;
+  	background-clip: padding-box;
+  	border: 1px solid #ced4da;
+  	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  	height: 30px;
+  	padding: 0.25rem 0.5rem;
+  	font-size: 0.875rem;
+  	line-height: 1.5;
+  	border-radius: 0.2rem;
+  	padding: 2px;
+}
+
+/*cantidad de paginas mostradas*/
+#tablaProd_info{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/*botones de paginas*/
+#tablaProd_paginate a{ 
+	 font-size: 13px;
+	 padding: 3;
+}
+
+#tablaProd_paginate span a{ 
+	 padding: 1px;
+}
+
+#tablaProd th{
+  font-size: 15px;
+}
+
+#tablaProd td{
+  font-size: 13px;
+}
